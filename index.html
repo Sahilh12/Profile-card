@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="top-strip"></div>
+    <div class="container">
+      <div class="profile-card">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="icons">
+          <img src="Like-btn.svg" alt="" />
+          <img
+            onclick="navigator.share({url:location.href})"
+            src="🦆 icon _share_.svg"
+            alt=""
+          />
+        </div>
+        <div class="profile-content">
+          <div class="avtar-container">
+            <img class="avtar" src="-io2pju.jpg" alt="" />
+            <div class="green-dot"></div>
+          </div>
+          <h1 class="heading">Sahil Hirani</h1>
+          <p class="detail">Frontend Developer</p>
+          <a
+            href="https://github.com/Sahilh12"
+            target="_blank"
+            class="profile-btn"
+            >View Full Profile</a
+          >
+          <div class="links">
+            <img src="telegram-square.svg" alt="" />
+            <img src="twitter-square.svg" alt="" />
+            <img src="linkedin-square.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-strip"></div>
+  </body>
+</html>
